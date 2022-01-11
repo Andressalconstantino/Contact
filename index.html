@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div id="logoName"><div id="img"><img src="img/halloween.png"></div><div id="title">Spooky</div></div>
+    <div id="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li id="Rp"><a href="#">Contato</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <div id="sticker">
+        <div id="imgI"><img src="img/ghost.png"></div>
+        <div><span id="titleF"></span></div>
+    </div>
+    <div id="rightside">
+        <div id="formbox">
+            <h3>Contato</h3>
+            <form>
+                <label for="name" id="nameLabel">Nome:</label>
+                <input type="text" name="name" id="name" required><br>
+                <label for="address" id="addressLabel">Endereço:</label>
+                <input type="text" name="address" id="address" required><br>
+                <label for="cep" id="cepLabel">CEP:</label>
+                <input type="number" name="cep" id="cep" required><br>
+                <label for="tel" id="telLabel">Telefone:</label>
+                <input type="number" name="tel" id="tel" required><br>
+                <label for="email" id="emailLabel">E-mail:</label>
+                <input type="email" name="email" id="email" required><br>
+            </form>
+            <button id="send">Enviar</button>
+        </div>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #0d0d0d;
+    background-image: url("1.png");
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    all: unset;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 0 5px 15px 5px;
+}
+li{
+    all: unset;
+    font-family: 'Roboto', sans-serif;
+    color: #d9d9d9;
+    font-size: 18px;
+    padding: 0 10px;
+}
+#menu{
+    padding: 25px 0;
+
+}
+a{
+    all: unset;
+    cursor: pointer;
+}
+#Rp{
+    color: #8A84A1;
+    font-weight: 600;
+}
+#logoName{
+    font-family: 'Roboto', sans-serif;
+    color: #d9d9d9;
+    padding: 5px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    align-content: start;
+    justify-content: start;
+    width: 34%;
+}
+#img{
+    width: 15%;
+}
+#title{
+    font-family: 'Roboto', sans-serif;
+    color: #d9d9d9;
+    font-size: 24px;
+    padding-top: 4%;
+    animation: glowingText 7s infinite;
+}
+@keyframes glowingText {
+    0%{
+        color: #d9d9d9;
+        text-shadow: 1px 1px 2px #b3b3e6;
+    }
+    20%{
+        color: #d1d1e0;
+        text-shadow: 1px 1px 2px #8c8cd9;
+    }
+    45%{
+        color: #b3b3cb;
+        text-shadow: 1px 1px 2px #6666cc;
+    }
+    65%{
+        color: #8686ac;
+        text-shadow:1px 1px 2px #4040bf;
+    }
+    75%{
+        color: #b3b3cb;
+        text-shadow: 1px 1px 2px #6666cc;
+    }
+    80%{
+        color: #d1d1e0;
+        text-shadow: 1px 1px 2px #8c8cd9;
+    }
+    100%{
+        color: #d9d9d9;
+        text-shadow: 1px 1px 2px #b3b3e6;
+    }
+}
+#logoName img{
+    width: 80%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+#sticker{
+    width: 40%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+}
+#imgI{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+#sticker img{
+    width: 40%;
+    align-self: center;
+    animation: float 2s infinite;
+    padding: 50px 0 50px 0;
+}
+
+@keyframes float {
+    0%{
+        padding: 0 0 50px 0;
+    }
+    50%{
+        padding: 50px 0 0 0;
+    }
+    100%{
+        padding: 0 0 50px 0;
+    }
+}
+
+#formbox{
+    background-color: rgba(255, 255, 255, 0.02);
+    box-shadow: 0 0 3px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 170%;
+    padding: 20px;
+}
+input[type=text], input[type=number], input[type=email]{
+    all: unset;
+    border-bottom: 1px solid #d9d9d9;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    color: #d9d9d9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 11px;
+}
+
+input[type=text]:focus, input[type=number]:hover, input[type=email]:focus {
+    border-bottom: 1px solid #8A84A1;
+}
+
+input[type=number]{
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    color: #d9d9d9;
+    font-size: 16px;
+    text-align: left;
+    align-self: start;
+    margin-left: 25%;
+}
+#send{
+    width: 130px;
+    height: 40px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #8A84A1;
+    cursor: pointer;
+}
+
+a:hover, #send:hover{
+    opacity: 0.7;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: #8A84A1;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#rightside{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    color: darkred;
+    font-size: 14px;
+}
+
+#titleF{
+    color: darkgreen;
+    font-size: 18px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
